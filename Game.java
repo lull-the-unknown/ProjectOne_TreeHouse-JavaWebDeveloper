@@ -83,6 +83,7 @@ public class Game {
 			showHighScores();
 			break;
 		case 1: // Story Mode
+			// Note: This isn't part of the project, it's just for fun.
 			StoryMode game2 = new StoryMode(mPrompt);
 			game2.play();
 			break;
